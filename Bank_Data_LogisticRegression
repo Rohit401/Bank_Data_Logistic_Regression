@@ -19,7 +19,7 @@ from sklearn import metrics
 from sklearn import preprocessing
 from sklearn.metrics import classification_report
 
-bank_data = pd.read_csv("C:\\Users\\home\\Desktop\\Data Science Assignments\\Python_codes\\Logistic_Regression\\bank-full.csv", sep=";")
+bank_data = pd.read_csv("C:\\Users\\samal\\Python_codes\\Logistic_Regression\\bank-full.csv", sep=";")
 #Since the data is in text format we used "sep= ;" to convert text into column
 
 #since the  data have  O/P-“ y” is discrete in two categories and with multiple i/p variables
